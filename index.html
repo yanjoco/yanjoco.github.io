@@ -1,46 +1,21 @@
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>WhiteBox</title>
-	    <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteBox</title>
+    <style>
         body {
-		            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-			                line-height: 1.6;
-					            max-width: 800px;
-						                margin: 0 auto;
-								            padding: 20px;
-									            }
-	        h1, h2 {
-			            color: #333;
-				            }
-		        ol {
-				            padding-left: 20px;
-					            }
-			        ol ol {
-					            list-style-type: lower-alpha;
-						            }
-				        .footnote {
-						            color: #0066cc;
-							                cursor: pointer;
-									        }
-		</style>
-	</head>
-	<body>
-		<h1>WhiteBox</h1>
-		<h2>Primary Convictions</h2>
-			    <ol>
-				    <li>AI reliability is an important market, <a href="https://www.aiat.report/report/Executivesummary">estimated to be over $200B by 2030 </a>. Modern AI systems hallucinate, can be jailbroken, and are not interpretable/transparent. Enterprises hesitate to deploy them because they aren't reliable enough.
-						                <ol>
-									                <li>As AI improves, we'll deploy them for more complex tasks. Therefore the value of making these systems more reliable will grow alongside</li>
-											                <li>In particular, highly regulated industries like healthcare and banking will be slow to deploy AI, and this gap is where a lot of value can be added</li>
-													            </ol>
-														            </li>
-															    <li>Mechanistic interpretability can make AI more reliable. Research in the field has yielded techniques that can help with real-world tasks, such as <a href="https://arxiv.org/abs/2407.07071">reducing hallucinations</a>, <a href="https://www.anthropic.com/news/golden-gate-claude">steering model behavior</a>, and <a href="https://arxiv.org/pdf/2406.18221">editing out personally identifiable information</a>. Notably, these interventions can be done without retraining a model, and are significantly cheaper
-																	                <ol>
-																				<li>Interpretability techniques can be <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/">applied on large-scale foundation models</a>, and will be increasingly useful in practically understanding powerful future AI systems.</li>
-																						            </ol>
-																							            </li>
-																								        </ol>
-																									<p>The field of interpretability has only recently matured enough to be commercially useful. We believe these two convictions alone are enough reason to build WhiteBox. The current state of AI reliability treats AI like a black box, and this has limitations. State of the art techniques are: 1) asking the black box to double-check its work, 2) asking <a href="https://www.patronus.ai/blog/lynx-state-of-the-art-open-source-hallucination-detection-model">another black-box</a> to <a href="https://www.aimon.ai/posts/hallucination-fails-large-language-models">double-check its work</a>, or 3) asking the black-box to output its work multiple times, and take the majority. WhiteBox techniques can do better than that.</p>
-	</body>
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WhiteBox - Making AI Reliable</h1>
+	<p>Deploy AI with confidence with real-time safety monitoring. We look at model internals to spot hallucinations before they happen. With WhiteBox techniques, you can eliminate vulnerable reasoning, guard against sophisticated jailbreaks, and make your AI explainable in ways that surpass blackbox techniques.</p>    
+    <a href="contact@white-boi.ai">Contact</a>
+</body>
 </html>
-
